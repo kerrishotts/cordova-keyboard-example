@@ -1,0 +1,4 @@
+cordova-app/hooks
+cordova-app/platforms
+cordova-app/plugins
+*.swp

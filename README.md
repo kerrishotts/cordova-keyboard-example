@@ -1,5 +1,8 @@
 # Cordova Keyboard Avoidance Example
 
+> **IMPORTANT**: This isn't intended to be a drop-in solution, although depending on your app's layout, it's possible it could work
+> with minimal modifications. This example is intended more to spark ideas than it is to provide a plug-and-play implementation.
+
 When it comes to Cordova apps on iOS, the typical behavior when the keyboard is visible is to pan the webview. This is _far_ from
 desirable, since this is most definitely not how things work in native apps.
 

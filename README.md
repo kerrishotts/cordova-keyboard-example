@@ -221,6 +221,7 @@ if (sc) {
 Now, this isn't perfect -- there are limitations with this approach is it stands currently, though there's always a chance that
 it will be improved in the future.
 
+* I've only considered text fields in this example, not `textarea`s.
 * The event is usually received _after_ the keyboard is already visible (or in process). So there's no real point in trying to
   exactly match iOS's animation curves, since we'll be animating after the keyboard is already visible.
 * Whatever is below the scroll container in the DOM (such as any other elements) may tint the keyboard. The content in the scroll

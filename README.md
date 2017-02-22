@@ -26,7 +26,7 @@ but it's a start.
 If you want to build the app in this repository, you will need Cordova installed on your machine. Then clone this repository to your computer, and then:
 
 ```
-$ cd project-clone-directory
+$ cd project-clone-directory/cordova-app
 $ cordova prepare    # plugins and platforms should be installed
 ```
 

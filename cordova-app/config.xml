@@ -25,4 +25,7 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="android-windowSoftInputMode" value="adjustResize" />
     <access origin="*" />
+    <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
+    <engine name="ios" spec="~4.3.1" />
+    <plugin name="cordova-plugin-device" spec="~1.1.4" />
 </widget>

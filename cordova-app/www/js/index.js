@@ -50,9 +50,9 @@ var app = (function(){
                 // disable scrolling of the webview
                 // you could also do this only when the keyboard is visible and then
                 // renable the scrolling when the keyboard is hidden
-                cordova.plugins.Keyboard.disableScroll(true);
                 window.addEventListener("native.keyboardshow", app.keyboardShown);
                 window.addEventListener("native.keyboardhide", app.keyboardHidden);
+                cordova.plugins.Keyboard.disableScroll(true);
             }
         },
         // keyboardHidden event handler

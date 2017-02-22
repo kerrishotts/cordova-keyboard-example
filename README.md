@@ -23,15 +23,11 @@ but it's a start.
 
 ## Building
 
-If you want to build the app in this repository, you will need Cordova installed on your machine. Then:
+If you want to build the app in this repository, you will need Cordova installed on your machine. Then clone this repository to your computer, and then:
 
 ```
-$ cd your-project-directory
-$ cordova create keyboardexample com.your.domain CdvKbdEx --copy-from /path/to/clone/of/this/repository
-$ cd keyboardexample
-$ cordova plugin add com.ionic.keyboard
-$ cordova plugin add org.apache.cordova.device
-$ cordova platform add ios
+$ cd project-clone-directory
+$ cordova prepare    # plugins and platforms should be installed
 ```
 
 ## How it works
@@ -162,7 +158,7 @@ keyboardHidden: function keyboardHidden() {
 ## Smooth Scrolling
 
 The catch with this type of scrolling is that the action is instantaneous, which feels out-of-place on iOS. If your app included
-jQuery or some other framework, chances are good you'd have a mechanism for scrolling an element into view smoothly. 
+jQuery or some other framework, chances are good you'd have a mechanism for scrolling an element into view smoothly.
 
 Here's how I've added support for smooth scrolling without a framework. I make no warranty as to how robust this code is, and if
 it even works in all situations. It's sufficient for the demo, though!
